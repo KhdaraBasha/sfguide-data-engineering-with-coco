@@ -1,0 +1,10 @@
+data_engineering_with_coco:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: DEMO_WH
+      database: DEMO_DB
+      schema: TPCH_TRANSFORMED
+      threads: 8
